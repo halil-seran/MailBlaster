@@ -94,9 +94,9 @@ start_time = time.time()
 excel_file = "mails.xlsx"            # mail dosyanizin adini girin
 smtp_server = "smtp.yandex.com"      # "smtp.yandex.com" veya "smtp.gmail.com" veya istediginiz mail serveri 
 port = 587
-sender_email = "info@polixir.com"    # mail gondereceğiniz mail hesabi 
-sender_password = "Fm63951318$"      # mail sifreniz 
-subject = "HIZLI ACENTE YAZILIMI"    # gondereceginiz mailin konusu
+sender_email = " "                   # mail gondereceğiniz mail hesabi 
+sender_password = ""                 # mail sifreniz 
+subject = " HEADER HERE "            # gondereceginiz mailin konusu
 body_file = "body.txt"               # mailin icerigini iceren dosyanin adi (line 29)
 body = open(body_file, 'r', encoding='utf-8').read()
 column = 8                           # E-posta adreslerinin bulunduğu sütun (Excel'de A=0, B=1, C=2, ...)
